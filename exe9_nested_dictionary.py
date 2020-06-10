@@ -22,8 +22,8 @@ pokemon = {'Trainer1':
           {'normal': {'rattatas':17, 'eevees': 1}, 'water': {'magikarps':9}, 'flying': {'zubats':12, 'pidgey': 14}}}
 
 
-p = 0 # pidgeys
-r = 0 #rattatas
+p = 0 # pidgey
+r = 0 # rattatas
 d = 0 # ditto
 
 for level1 in pokemon.values():
