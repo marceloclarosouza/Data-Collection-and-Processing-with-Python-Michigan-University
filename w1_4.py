@@ -13,14 +13,12 @@ nested = {'data': ['finding', 23, ['exercises', 'hangout', 34]], 'window': ['par
 
 # Check to see if the string data is a key in nested, if it is, assign True to the variable data, otherwise assign False.
 
-for var in nested:
-    if data is key:
+nest_key = list(nested.keys())
+if 'data' in nest_key:
         data = True
-    else:
-        data = False
-        
+else:
+        data = False        
 print(data)
-        
         
 
 
