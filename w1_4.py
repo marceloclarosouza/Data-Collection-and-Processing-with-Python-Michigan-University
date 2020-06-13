@@ -40,5 +40,10 @@ print(whole)
     
 # Check to see if the string 'physics' is a key in the dictionary nested. If it is, assign to the variable physics, the value of True, otherwise False.
 
-
-
+nest_keys = list(nested.keys())
+if 'physics' in nest_key:
+    physics = True
+else:
+    physics = False
+print(physics)
+ 
