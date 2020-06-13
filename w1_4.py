@@ -18,8 +18,7 @@ if 'data' in nest_key:
         data = True
 else:
         data = False        
-print(data)       
-
+print(data)    
 
 # Check to see if the integer 24 is in the value of the key data, if it is then assign to the variable twentyfour the value of True, otherwise False.
 
@@ -30,9 +29,15 @@ else:
     twentyfour = False
 print(twentyfour)
 
-
 # Check to see that the string 'whole' is not in the value of the key window. If it's not, then assign to the variable whole the value of True, otherwise False.
 
+nest_key = list(nested.keys())
+if 'whole' not in nest_key:
+    whole = True
+else:
+    whole = False
+print(whole)
+    
 # Check to see if the string 'physics' is a key in the dictionary nested. If it is, assign to the variable physics, the value of True, otherwise False.
 
 
