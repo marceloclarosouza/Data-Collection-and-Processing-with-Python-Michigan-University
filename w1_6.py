@@ -22,5 +22,9 @@ print(v2)
 
 # Assign the list ['vault', 'floor', 'uneven bars', 'balance beam'] to the name v3
 
+v3 = sports['gymnastics']['women']
+
+print(v3)
+
 # Assign the string 'rings' to the name v4
 
